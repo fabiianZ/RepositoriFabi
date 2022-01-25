@@ -1,0 +1,164 @@
+<!doctype html>
+<!-- doctype es una etiqueta que no necesita cierra , y brinda informacion al servidor que aloja la pagina( tipo de documento ) , ademas es necesesaria para la comunicacion entre el navegador y el servidor -->
+
+<html> 
+
+<head>
+		<meta charset ="utf-8">
+		<meta name = "author" content= "fabian"> 
+		<title>TANAT METALES</title> 
+		<link rel="icon" href="img/logo.png">  <!-- sirve para vincular hojas de estilo o el icono que aparece al lado de ltitulo de la pagina 200x200 lo importante es que sea cuadrada px !-->
+	<link rel="stylesheet"  href="estilos.css">
+	<link rel="stylesheet" media="(max-width: 800px)" href="example.css" />
+	</head>	
+	<link rel="stylesheet" media="(max-width: 800px)" href="example.css" />
+	<style>
+.slider {
+	width: 95%;
+	margin: auto;
+	overflow: hidden;
+}
+.slider ul {
+	
+	display: flex;
+	padding: 0;
+	width: 200%;
+	animation: cambio 20s infinite;
+	
+}
+.slider li {
+	width: 70%;
+	list-style: none;
+}
+.slider img {
+	width: 100%;
+}
+
+@keyframes cambio{
+
+	0%{margin-left: 0;}
+	20%{margin-left: 0;}
+
+	25%{margin-left:-100%;}
+	45%%{margin-left: -100%;}
+
+ 	50%%{margin-left: -200%;}
+ 	70%%{margin-left: -200%;}
+
+ 	75%%{margin-left: -200%;}
+ 	100%%{margin-left: -200%;}
+
+}
+body{
+	background-image: url(img/fondoTanat.jpg);
+	background-repeat: no-repeat ;
+  	background-position-x:center;
+ 	background-position-y:center;
+ 	overflow: scroll;
+}
+table{
+	list-style-type: none;
+
+}
+
+.prueba li{
+
+	list-style-type: none;
+
+}
+.prueba ul{ 
+	display: flex;
+	flex-direction: row-reverse;
+
+}
+.prueba{
+
+}
+#cajaTitulo aside{
+  width: 30%;
+  padding: 0;
+  margin-left: 0;
+  margin-right: 0;
+  float: left;
+  font-style: normal;
+  font-size: auto;
+ 
+}
+#cajabaja aside{
+	width:45%;
+	height: 410px;
+  float: right;
+  font-style: italic;
+  font-size: auto;
+  background-image: url(img/fondoV.jpg);
+ 	
+}
+#caja {
+	
+	width: auto;
+	height: 400px;
+	background-image: url("img/fondoV.jpg");
+}
+#cajota{
+	background-image: url("img/fondoV.jpg");
+	width: auto;
+	height: 70px;
+}
+	</style>
+	<body>
+	
+	 <header>
+	 	<div id="cajota">
+		<div id="cajaTitulo">
+		
+			<center>
+			<p><h1><aside>JUAN CARLOS MIGUEL</aside></h1></p>
+	   		<p><h1><aside>TANAT METALES</aside></h1></p>
+			<h1><aside><img src="img/wp.png" width="22" height="23">&nbsp;1528264329</h1></aside>	
+		 </center>
+		</div>
+	</div>
+<hr>
+</header>
+</div>
+	<div class = "ParrafoYFoto">
+		<div class ="slider">
+		<ul>
+
+			<li><img src="img/ALUMINIO.jpeg" alt=""></li>
+			<li><img src="img/cobre.jpg" alt=""></li>
+			<li><img src="img/metalesferrosos.jpg" alt=""></li>
+			<li><img src="img/plomon.png" alt=""></li>
+			<li><img src="img/bronce-viruta.jpg" alt=""></li>
+		</ul> 
+		</div>
+		<hr>
+		<div class="texto">
+
+	</div>	
+  <div id="cajabaja">
+		<aside>
+			<table>
+  			<center><h3>Envianos un correo con tus dudas</h3></center>
+  			<center><a href="mailto:fzelmatador11@gmail.com"><input type="Submit" name="Click para enviar correo"></a></center>
+  		</table>
+  	<h3>-Seguinos en nuestras redes&nbsp; :</h3>
+			<table>
+	  		<th><li><a href="https://www.instagram.com/tanat_metales/"><img src="img/ig.png" width="30" height="30"></th>
+	    	<th><a href="https://www.instagram.com/tanat_metales/"><h2><font color="black"> Instagram<h2></a></li></th>
+	    	<th><li><a href="https://www.facebook.com/profile.php?id=100077272592373"><img src="img/124010.png" width="30" height="30"></th>
+	    	<th><a href="https://www.facebook.com/profile.php?id=100077272592373"><h2><font color="black">Facebook<h2></a></li></th>
+	    </table>
+	</aside>
+</div>
+<div id="caja" >
+	<table>
+    <tr><td><p><h3>-Somos una empresa dedicada a la compra y venta de metales en general</h3></p></td></tr>
+    <tr><td><p><h3>-compramos chatarra,cobre,bronce,aluminio,plomo y mas</h3></p></td></tr>
+    <tr><p><h3>-Hacemos limpieza de galpones cubriendo cualquier parte del pais</h3></p></td></tr>
+	  <tr><p><h3>-nos avala nuestra trayectoria desde 1953 en el mercado metalurgico</h3></p></td></tr>
+	  <tr><p><h3>-Ademas hacemos demoliciones y contamos con maquinaria propia</h3></p></td></tr>
+	  <tr><p><h3>-Si tenes maquinas en deshiso, transformadores, generadores contactate con nosotros que tambien los compramos</h3></p></td></tr> 
+</div>
+</body>
+</html>
